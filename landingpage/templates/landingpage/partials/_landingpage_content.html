@@ -1,0 +1,26 @@
+<!-- Content -->
+<main class="container">
+    <!-- Banner -->
+    {% block banner %}
+    {% include "landingpage/partials/_banner_big.html" %}
+    {% endblock banner %}
+
+    <!-- Section highlights -->
+    {% block section_highlights %}
+    {% include "landingpage/partials/_section_highlights.html" %}
+    {% endblock section_highlights %}
+
+    <div class="row g-5">
+        <!-- Section articles -->
+        {% block section_articles %}
+        {% include "landingpage/partials/_section_articles.html" %}
+        {% endblock section_articles %}
+
+        <!-- Sidebar -->
+        {% block sidebar %}
+        {% include "landingpage/partials/_sidebar.html" %}
+        {% endblock sidebar %}
+
+    </div>
+
+</main>

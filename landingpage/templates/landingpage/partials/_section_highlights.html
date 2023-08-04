@@ -1,0 +1,13 @@
+<!-- Section highlights -->
+<div class="row mb-2">
+    
+    {% for highlight in highlights %}
+    
+        <!-- Highlights card -->
+        {% block highlights_card_1 %}
+            {% include "landingpage/partials/_highlights_card.html" with highlight=highlight %}
+        {% endblock %}
+
+    {% endfor %}
+
+</div>
