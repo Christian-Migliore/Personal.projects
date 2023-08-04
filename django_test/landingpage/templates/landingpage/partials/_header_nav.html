@@ -1,0 +1,10 @@
+<!-- Navbar -->
+<div class="nav-scroller py-1 mb-3 border-bottom">
+    <nav class="nav nav-underline justify-content-between">
+
+      {% for category_tag, category_display_name in categories %}
+      <a class="nav-item nav-link link-body-emphasis" href="{% url 'articles:articles-list' category_tag %}">{{ category_display_name }}</a>
+      {% endfor %}
+
+    </nav>
+  </div>

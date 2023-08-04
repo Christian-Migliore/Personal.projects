@@ -1,0 +1,66 @@
+{% extends "landingpage/index.html" %}
+
+{% block page_content %}
+
+{% if messages %}
+<div class="messages">
+    {% for message in messages %}
+        {% if message.tags %}
+            <div class="alert alert-{{ message.tags }}" role="alert">
+        {% else %}
+            <div class="alert alert-primary" role="alert">
+            </div>                
+        {% endif %}
+        {{ message }}
+     </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+<div class="container-fluid p-5">
+    <h2>Modifica il tuo profilo</h2>
+<!-- Errore username/password -->
+    {% if form.errors %}
+    <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
+
+    <!-- Autenticazione -->
+    <form method="post">
+    {% csrf_token %} <!-- Protezione -->
+
+    <!-- {{ user_form.as_p }} -->
+
+    {% for field in user_form %}
+        <p>
+        {{ field.label_tag }}
+        {{ field }}
+        {% if field.help_text %}
+            <small style="color: grey">{{ field.help_text }}</small>
+        {% endif %}
+        {% for error in field.error %}
+            <p style="color: red">{{ error }}</p>
+        {% endfor %}  
+        </p>      
+    {% endfor %}
+
+    <!-- {{ profile_form.as_p }} -->
+
+    {% for field in profile_form %}
+        <p>
+        {{ field.label_tag }}
+        {{ field }}
+        {% if field.help_text %}
+            <small style="color: grey">{{ field.help_text }}</small>
+        {% endif %}
+        {% for error in field.error %}
+            <p style="color: red">{{ error }}</p>
+        {% endfor %}  
+        </p>      
+    {% endfor %}
+    
+    <input type="submit" value="modifica">
+    </form>
+
+</div>
+
+{% endblock %}
