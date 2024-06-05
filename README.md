@@ -1,9 +1,10 @@
-Hi there, I'm [Your Name]! 👋
+<h1 align="center">Hi 👋, I'm Christian</h1>
 
  <!-- Optional: Add a banner image -->
 
 🚀 About Me
 
+<h2 align="left">I'm a passionate developer who loves building innovative solutions and exploring new technologies. My tech journey began [X] years ago, and since then, I've been committed to enhancing my skills and actively contributing to the developer community.</h2>
 I'm a passionate developer who loves building innovative solutions and exploring new technologies. My tech journey began [X] years ago, and since then, I've been committed to enhancing my skills and actively contributing to the developer community.
 🔭 I’m currently working on **Server_Application**
 🌱 I’m currently learning [technology or skill]
@@ -46,7 +47,7 @@ Description: Brief description of project 3.
 <!-- Add more projects as needed -->
 📫 Connect with Me
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">📫 Connect with Me:</h3>
 <p align="left">
 <a href="https://dev.to/christian-migliore" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/devto.svg" alt="christian-migliore" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/migliorechristian" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="migliorechristian" height="30" width="40" /></a>
@@ -54,8 +55,8 @@ Description: Brief description of project 3.
 
 <!-- Add more social links if necessary -->
 
-<h1 align="center">Hi 👋, I'm Christian</h1>
-<h3 align="center">I'm a passionate developer who loves building innovative solutions and exploring new technologies. My tech journey began [X] years ago, and since then, I've been committed to enhancing my skills and actively contributing to the developer community.</h3>
+
+
 
 - 🔭 I’m currently working on **Server_Application**
 
