@@ -4,7 +4,7 @@
 
 🚀 About Me
 
-<h2 align="left">I'm a passionate developer who loves building innovative solutions and exploring new technologies. My tech journey began [X] years ago, and since then, I've been committed to enhancing my skills and actively contributing to the developer community.</h2>
+<h6 align="left">I'm a passionate developer who loves building innovative solutions and exploring new technologies. My tech journey began [X] years ago, and since then, I've been committed to enhancing my skills and actively contributing to the developer community.</h6>
 I'm a passionate developer who loves building innovative solutions and exploring new technologies. My tech journey began [X] years ago, and since then, I've been committed to enhancing my skills and actively contributing to the developer community.
 🔭 I’m currently working on **Server_Application**
 🌱 I’m currently learning [technology or skill]
